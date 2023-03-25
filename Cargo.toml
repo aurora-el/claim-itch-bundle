@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Aurora Long <contact@aurora-long.me"]
 description = "A program to automate claiming itch.io games purchased as part of large bundles"
+license-file = "LICENSE"
+repository = "https://github.com/aurora-el/claim-itch-bundle.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
