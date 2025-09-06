@@ -52,3 +52,4 @@ jobs:
         with:
           executable-name: claim-itch-bundle
           target: ${{ matrix.platform.target }}
+          changes-file: ""
