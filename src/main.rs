@@ -51,7 +51,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     .expect("Failed to start WebDriver, perhaps it isn't installed?");
 
     // start headless client and connect to webdriver
-    let client = ClientBuilder::native()
+    let client = ClientBuilder::rustls()
         .capabilities(serde_json::Map::from_iter([
             (
                 "moz:firefoxOptions".into(),
